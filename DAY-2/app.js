@@ -67,3 +67,14 @@ console.log(num1 <= num2);
 console.log(num1 && num2);
 console.log(num1 || num2);
 console.log(!num1 && !num2);
+
+// Functions
+
+// Function Definiton
+function add(x,y){
+    return x + y
+}
+
+// Function Calling
+let sum = add(3,4)
+console.log(sum);
