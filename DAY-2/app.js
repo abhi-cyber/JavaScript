@@ -42,3 +42,16 @@ console.log("These are the DataTypes: "+string, integer, boolean, unDefined, nul
     Precendence: PEMDAS
     Associativity is of ASSIGNMENT OPERTORS
 */
+
+
+let num1 = 25;
+let num2 = 33;
+
+// Arithmetic Operator
+
+console.log(num1 + num2);
+console.log(num1 - num2);
+console.log(num1 * num2);
+console.log(num1 / num2);
+console.log(num1 % num2);
+
