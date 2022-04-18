@@ -33,3 +33,19 @@ function grade(n1, n2, n3){
     }
 }
 grade(85, 25, 55)
+
+// SUM the Digits of a number
+
+function sumDig(num){
+    let len = num.toString()
+    let digit;
+    let sum = 0;
+    for(let i = 0; i < len.length; i++){
+        digit = num%10
+        sum += digit
+        num = parseInt(num/10)
+    }
+    console.log(sum)
+}
+
+sumDig(669)
