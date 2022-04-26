@@ -25,3 +25,12 @@ function message(){                                 //FUNCTION DEFINITION
 }
 
 message(); 
+
+// TYPE 2
+
+function messReturn(){
+    return "This Hello world is returned";
+}
+
+let mess = messReturn();
+console.log(mess);
