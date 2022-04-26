@@ -42,3 +42,12 @@ function messWArgs(message){
 }
 
 messWArgs('This hello world is passed as an arguement')
+
+// TYPE 4
+
+function messWArgsReturn(mess){
+    return mess + "Arguement + Returned";
+}
+
+let retMess = messWArgsReturn("This Hello World is ")
+console.log(retMess);
