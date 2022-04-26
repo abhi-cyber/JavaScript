@@ -89,9 +89,25 @@ console.log(retMess);
 */
 
 // Arrays
-
+/*
 let arr = [1,3,2,3,4,5,5,23,6,3,3,22];
 
 arr.forEach((element)=>{
     console.log(element);
 })
+*/
+
+let arr = [10,15,25,35,45,50, 59, 70]
+
+function searchArr(element){
+    arr.forEach(function (index){
+        if (element === index) {
+            let indexofElement = arr.indexOf(element);
+            console.log(index + ", Index of: " + indexofElement);
+        }else if( element !== index){
+            let indexNotFound = arr.indexOf(element)
+            console.log('Element not found: '+ indexNotFound);
+        }
+    })
+}
+searchArr(1)
