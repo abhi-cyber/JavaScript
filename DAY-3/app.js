@@ -34,3 +34,11 @@ function messReturn(){
 
 let mess = messReturn();
 console.log(mess);
+
+// TYPE 3
+
+function messWArgs(message){
+    console.log(message);
+}
+
+messWArgs('This hello world is passed as an arguement')
