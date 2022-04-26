@@ -57,3 +57,33 @@ console.log(retMess);
     Conditional Statements
     1. Execution of SWITCH is faster than the if statements as it jumps directly to the specified conditions rather than making comparisons on the go.
 */
+
+
+// SWITCH STATEMENTS
+
+/*
+    switch(){
+        case 1:
+            {
+                break;  // Significance ==> Terminates the process as soon as the condition satisfies. And jumps out.
+            }
+        case 2:
+            {
+
+            }
+        case 3:
+            {
+
+            }
+        default:
+            {
+
+            }
+    }
+*/
+
+/*
+    QUES. WHERE THE FOR LOOP CAN'T WORK?
+    In For loop CONDITION IS PREDETERMINED
+    In While loop NOT PREDETERMINED
+*/
