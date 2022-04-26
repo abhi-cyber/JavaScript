@@ -17,3 +17,11 @@
     IF the number of passed arguments is same then the data type of the arguments is checked.
 
 */
+
+// TYPE 1
+
+function message(){                                 //FUNCTION DEFINITION
+    console.log("This Hello World is not returned");
+}
+
+message(); 
