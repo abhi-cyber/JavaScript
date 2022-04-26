@@ -87,3 +87,11 @@ console.log(retMess);
     In For loop CONDITION IS PREDETERMINED
     In While loop NOT PREDETERMINED
 */
+
+// Arrays
+
+let arr = [1,3,2,3,4,5,5,23,6,3,3,22];
+
+arr.forEach((element)=>{
+    console.log(element);
+})
