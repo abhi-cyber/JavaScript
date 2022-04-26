@@ -51,3 +51,9 @@ function messWArgsReturn(mess){
 
 let retMess = messWArgsReturn("This Hello World is ")
 console.log(retMess);
+// --------------------------------------------------- //
+
+/*
+    Conditional Statements
+    1. Execution of SWITCH is faster than the if statements as it jumps directly to the specified conditions rather than making comparisons on the go.
+*/
